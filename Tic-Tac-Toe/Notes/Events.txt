@@ -1,0 +1,8 @@
+
+A event in SDL is anything that is going on in the window created by SDL(depending on the type of event).
+
+SDL_Event is a structure the can store all the type of events (one at a time). We can also initialize
+event by directly using the event structure ( Eg. SDL_MouseMotionEvent is a structure ), the is present
+by the name of motion in SDL_Event structure.
+
+

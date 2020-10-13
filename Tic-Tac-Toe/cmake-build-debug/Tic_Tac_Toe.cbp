@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tic_Tac_Toe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tic_Tac_Toe">
+				<Option output="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Tic_Tac_Toe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zyrch/Documents/Tic-Tac-Toe/include"/>
+					<Add directory="/home/zyrch/Documents/Tic-Tac-Toe/libSDL2-2.0.so.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tic_Tac_Toe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tic_Tac_Toe/fast">
+				<Option output="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Tic_Tac_Toe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zyrch/Documents/Tic-Tac-Toe/include"/>
+					<Add directory="/home/zyrch/Documents/Tic-Tac-Toe/libSDL2-2.0.so.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tic_Tac_Toe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zyrch/Documents/Tic-Tac-Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zyrch/Documents/Tic-Tac-Toe/Headers/Screen.h">
+			<Option target="Tic_Tac_Toe"/>
+		</Unit>
+		<Unit filename="/home/zyrch/Documents/Tic-Tac-Toe/main.cpp">
+			<Option target="Tic_Tac_Toe"/>
+		</Unit>
+		<Unit filename="/home/zyrch/Documents/Tic-Tac-Toe/src/Screen.cpp">
+			<Option target="Tic_Tac_Toe"/>
+		</Unit>
+		<Unit filename="/home/zyrch/Documents/Tic-Tac-Toe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

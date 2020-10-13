@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zyrch/Documents/Tic-Tac-Toe/Headers/Screen.h
+SDL2/SDL.h
+-
+
+/home/zyrch/Documents/Tic-Tac-Toe/main.cpp
+iostream
+-
+SDL2/SDL.h
+-
+Headers/Screen.h
+/home/zyrch/Documents/Tic-Tac-Toe/Headers/Screen.h
+
+/home/zyrch/Documents/Tic-Tac-Toe/src/Screen.cpp
+../Headers/Screen.h
+/home/zyrch/Documents/Tic-Tac-Toe/Headers/Screen.h
+cmath
+-
+iostream
+-
+cstring
+-
+
